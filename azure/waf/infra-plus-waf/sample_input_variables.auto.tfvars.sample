@@ -1,0 +1,13 @@
+# Uncomment and change values as needed
+
+location = "West Europe"
+resource_group_name = "tf-group-waf"
+
+virtual_network_address_space = "10.25.0.0/16"
+
+management_subnet_address_prefix = "10.25.1.0/24"
+client_subnet_address_prefix = "10.25.2.0/24"
+server_subnet_address_prefix = "10.25.3.0/24"
+
+adc_admin_password = "VerySecret1234"
+controlling_subnet = ["2.85.35.190/32", "185.25.64.249/32"]
